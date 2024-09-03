@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "My first Article for github.io"
 date: 2024-09-03 10:00:00 +0900
 categories: [personal, thoughts]
