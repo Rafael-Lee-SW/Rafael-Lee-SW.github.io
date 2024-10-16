@@ -17,13 +17,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ko"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Soowan's happy hour"
+title                    : "Soowan Lee Rafael"
 title_separator          : "-"
-subtitle                 : "Dealing with philsophical or physical issues on my world"
+subtitle                 : "Programming and Physics and Philosophy"
 name                     : "Soowan Rafael Lee"
 description              : "I want to read, write and think"
 url                      : "https://rafael-lee-sw.github.io/"
-baseurl                  : "/"
+baseurl                  : "/home"
 repository               : "rafael-lee-sw.github.io"
 teaser                   : "/assets/images/Soowan_300400.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -72,7 +72,7 @@ search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -113,8 +113,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Soowan"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Soowan Lee Rafael"
+  avatar           : "/assets/images/soowan_face.jpg"
   bio              : "I am a full-stack developer"
   location         : "Republic of Korea"
   email            :
@@ -135,24 +135,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "none"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: 'none'
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rafael-Lee-SW"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "i have but its forbidden to show"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "none"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "private"
 
 
 # Reading Files
@@ -312,6 +297,7 @@ defaults:
       type: posts
     values:
       layout: single
+      show_data : true
       author_profile: true
       read_time: true
       comments: true

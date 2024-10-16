@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Portfolio"
-    url: https://rafael-lee-sw.github.io/
+    url: /home
   - title: "Posts"
     url: /year-archive/
   # - title: "Sitemap"
