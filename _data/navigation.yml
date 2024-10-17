@@ -1,8 +1,8 @@
 # main links
 main:
   - title: "Portfolio"
-    url: /home
+    url: /portfolio/
   - title: "Posts"
     url: /year-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Categories"
+    url: /category-archive/
